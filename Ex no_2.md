@@ -13,8 +13,8 @@ To write a program to check whether the attendance is PRESENT using simple if st
 8. End.   
 
 ## Program:
-#include<stdio.h>
-int main()
+ #include<stdio.h>
+ int main()
  
 {
  
@@ -29,6 +29,8 @@ int main()
  
  return 0;
 }
+
+
 /*
 Program to check whether the attendance is PRESENT using simple if statement.
 Developed by: 
