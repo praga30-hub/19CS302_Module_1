@@ -13,18 +13,29 @@ To write a C program to find number of years based on principle,rate & simple in
 
 ## Program:
 #include <stdio.h>
+
 #include <math.h>
+
 int main()
+
 {
+
  float p,n,r,si,ci;
+
  scanf("%f%f%f", &p,&n,&r);
+
  
  si=((p*n*r)/100);
+
  ci=(p)*(pow((1+ r/100),n));
+
  
  printf("Simple Interest = %0.2f\nCompound Interest = %0.2f", si,ci);
+
  return 0;
+
 }
+
 
 /*
 Program to find number of years based on principle,rate & simple interest.
