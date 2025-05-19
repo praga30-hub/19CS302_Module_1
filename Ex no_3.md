@@ -4,7 +4,7 @@
 To write a C program to find number of years based on principle,rate & simple interest.
 
 ## Algorithm
-1. 1. Start.
+1. Start.
 2. Declare the variables.
 3. Prompt the user to enter a value.
 4. Read the value using scanf.
