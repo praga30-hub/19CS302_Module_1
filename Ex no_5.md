@@ -28,28 +28,38 @@ Percentage = (total / (7 × maximum_marks_per_subject)) × 100
 #include <stdio.h>
 
 int main() {
-    int marks[7];
-    int total = 0;
-    float average, percentage;
-    int i;
-    int max_marks = 100; // Assuming each subject is out of 100
+   
+int marks[7];
+
+int total = 0;
+
+float average, percentage;
+
+int i;
+
+int max_marks = 100; // Assuming each subject is out of 100
 
   
   printf("Enter marks for 7 subjects:\n");
    
   for(i = 0; i < 7; i++) {
-        printf("Subject %d: ", i + 1);
-        scanf("%d", &marks[i]);
-        total += marks[i];
+
+printf("Subject %d: ", i + 1);
+
+scanf("%d", &marks[i]);
+
+total += marks[i];
     }
 
-  
   average = total / 7.0;
-    percentage = (total / (7.0 * max_marks)) * 100;
+  
+percentage = (total / (7.0 * max_marks)) * 100;
 
   printf("\nTotal Marks = %d\n", total);
-    printf("Average Marks = %.2f\n", average);
-    printf("Percentage = %.2f%%\n", percentage);
+ 
+printf("Average Marks = %.2f\n", average);
+
+printf("Percentage = %.2f%%\n", percentage);
 
    return 0;
 }
