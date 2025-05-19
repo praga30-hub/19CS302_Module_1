@@ -25,6 +25,7 @@ int main()
  printf("Simple Interest = %0.2f\nCompound Interest = %0.2f", si,ci);
  return 0;
 }
+
 /*
 Program to find number of years based on principle,rate & simple interest.
 Developed by: 
